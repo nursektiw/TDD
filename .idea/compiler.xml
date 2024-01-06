@@ -9,7 +9,7 @@
         <module name="TestingSekti" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
+    <bytecodeTargetLevel target="11">
       <module name="TestingSekti" target="11" />
     </bytecodeTargetLevel>
   </component>
