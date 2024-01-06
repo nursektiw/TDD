@@ -20,5 +20,11 @@ public class StringSwap {
         StringSwapHelper help = new StringSwapHelper();
         Assert.assertEquals("SELENIMU", help.swaplasttwochars("SELENIUM"));
     }
+
+    @Test
+    public void swapLongLongString(){
+        StringSwapHelper help = new StringSwapHelper();
+        Assert.assertEquals("SELENIMUAPPIMU", help.swaplasttwochars("SELENIUMAPPIUM"));
+    }
 }
 
